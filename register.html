@@ -20,6 +20,51 @@
     <title>Register</title>
 </head>
 <body>
-    
+    <div class="container my-4 my-sm-5" id="card-container">
+        <div class="row m-0 py-2 justify-content-center align-items-center">
+            <div class="col-12 col-md-6 p-4 p-sm-5" id="form-container">
+                <h1 class="mb-4 mb-sm-5">Realize o seu cadastro</h1>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Digite o seu nome">
+                        <label for="firstName">Digite o seu nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Digite o seu sobrenome">
+                        <label for="lastName">Digite o seu sobrenome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Digite o seu email">
+                        <label for="email">Digite o seu email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Digite a sua senha">
+                        <label for="password">Digite a sua senha</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="Confirme a sua senha">
+                        <label for="confirm-password">Confirme a sua senha</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="accept-terms" name="accept-terms">
+                        <label class="form-check-label" for="accept-terms">
+                            Você aceita os <a href="#">termos de serviço</a>?
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="news-letter" name="news-letter" checked>
+                        <label class="form-check-label" for="news-letter">
+                            Deseja receber as nossas Newsletters?
+                        </label>
+                    </div>
+                    <button class="btn">Cadastrar</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 p-4 p-sm-5 text-center">
+                <img src="./assets/imgs/hello.svg" alt="Some description" class="img-fluid mb-5">
+                <a href="./login.html">Eu já tenho uma conta</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
