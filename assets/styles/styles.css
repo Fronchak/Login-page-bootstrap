@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #6C63FF;
+    --dark-gray-color: #222;
+    --light-gray-color: #ccc;
+}
+
+body {
+    background-color: #eee;
+}
+
+#card-container .row {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {
+    #card-container .row {
+        padding: 40px 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #card-container .row {
+        padding: 50px 60px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #card-container .row {
+        padding: 60px 80px;
+    }
+}
