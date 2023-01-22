@@ -1,7 +1,7 @@
 :root {
     --primary-color: #6C63FF;
     --dark-gray-color: #222;
-    --light-gray-color: #ccc;
+    --light-gray-color: #bbb;
 }
 
 body {
@@ -12,6 +12,57 @@ body {
     background-color: #fff;
     border-radius: 20px;
     box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#card-container .btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+    width: 100%;
+    transition: 0.8s;
+    border-radius: 0;
+}
+
+#card-container .btn:hover {
+    color: var(--primary-color);
+    background: #fff;
+}
+
+#card-container h1 {
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+#card-container .form-control {
+    border: none;
+    color: var(--light-gray-color);
+    border-bottom: 1px solid var(--light-gray-color);
+    border-radius: 0;
+    transition: 0.8s;
+}
+
+#form-container .form-floating > .form-control:focus~label {
+    color: var(--dark-gray-color);
+  }
+
+#card-container .form-control:focus {
+    box-shadow: none;
+    color: var(--dark-gray-color);
+    border-color: var(--dark-gray-color);
+}
+
+#card-container label {
+    color: var(--light-gray-color); 
+}
+
+#card-container a {
+    color: var(--dark-gray-color);
+    font-size: 0.9em;
+    transition: 0.8s;
+}
+
+#card-container a:hover {
+    color: var(--primary-color);
 }
 
 @media (min-width: 992px) {
